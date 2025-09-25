@@ -2,7 +2,7 @@ package spring.boot.desafio.rocketseat.domain.entity;
 
 import jakarta.persistence.*;
 
-public class Documento {
+public class Documento extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
