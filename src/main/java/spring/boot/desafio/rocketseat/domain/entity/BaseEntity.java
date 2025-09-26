@@ -22,11 +22,4 @@ public abstract class BaseEntity {
     @Column(name = "data_atualizacao")
     private LocalDateTime dataAlteracao;
 
-    public LocalDateTime getDataAlteracao() {
-        return dataAlteracao;
-    }
-
-    public LocalDateTime getDataInclusao() {
-        return dataInclusao;
-    }
 }
